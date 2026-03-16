@@ -1,7 +1,6 @@
 {
-  "name": "Python 3.10 DOMIAS",
-  "image": "mcr.microsoft.com/devcontainers/python:3.10",
-  "features": {},
+  "name": "Python 3.9 DOMIAS",
+  "image": "mcr.microsoft.com/devcontainers/python:3.9",
   "postCreateCommand": "pip install torch==1.13.1 ctgan==0.5.1 domias pandas scikit-learn numpy scipy jupyter",
   "customizations": {
     "vscode": {
